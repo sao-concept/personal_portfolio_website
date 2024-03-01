@@ -1,0 +1,129 @@
+/* mediaqueries.css */
+
+/* Media Queries for Responsive Design */
+
+@media screen and (max-width: 600px) {
+    /* Add your mobile-specific styles here */
+    .nav-menu {
+        display: none; /* Adjust as needed for your layout */
+    }
+
+    .nav-menu.show {
+        display: flex; /* Adjust as needed for your layout */
+    }
+
+    .nav-menu ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        left: 0;
+        width: 100%;
+        background-color: #68020f;
+        z-index: 1;
+    }
+
+    .nav-menu ul.show {
+        display: flex;
+    }
+
+    .nav-menu ul li {
+        border: none;
+    }
+
+    .nav-menu ul li:hover {
+        background-color: #68020f;
+    }
+
+    .nav-menu ul li a {
+        padding: 15px 20px;
+    }
+
+    .hamburger-menu {
+        display: block;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        position: relative;
+    }
+
+    .header-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #main-section {
+        padding-top: 60px;
+    }
+
+    .hero-content-right h1 {
+        font-size: 1.2em;
+    }
+
+    .hero-content-right h2 {
+        font-size: 0.8em;
+    }
+
+    .hero-btn button,
+    .hero-social img {
+        margin-top: 10px;
+    }
+
+    .hero-btn button,
+    .hero-social img {
+        width: 100%;
+    }
+
+    .hero-btn button {
+        height: 40px;
+        font-size: 0.8em;
+    }
+
+    .stack-left,
+    .stack-right {
+        width: 100%;
+    }
+
+    .stack-list-left ul,
+    .stack-list-right ul {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #about .more-detail,
+    #experience .more-detail {
+        padding: 0 20px;
+    }
+
+    .projects-section {
+        flex-direction: column;
+    }
+
+    .project-1,
+    .project-2,
+    .project-3 {
+        width: 100%;
+    }
+
+    .project-btn button {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .contact-section-email,
+    .contact-section-linkedin {
+        width: 100%;
+    }
+
+    .contact-section-email,
+    .contact-section-linkedin {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    #footer {
+        padding-top: 20px;
+    }
+}

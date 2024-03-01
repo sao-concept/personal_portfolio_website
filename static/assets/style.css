@@ -1,0 +1,395 @@
+/* General Styling */
+
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: #fffffe;
+   max-width: 1200px;
+   margin: 0 auto;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: 18px;
+}
+
+hr {
+   margin-top: 100px;
+   margin-bottom: 100px;
+   /* border: .5px solid #68020f; */
+}
+
+
+/* Header Section Styling */
+
+#header-section {
+   color: #f21137;
+   font-size: 1.5em;
+}
+
+#header-section > h2 {
+   padding: 20px;
+   text-align: center;
+}
+
+.nav-menu ul {
+   display: flex;
+   list-style: none;
+}
+
+.nav-menu ul li {
+   background-color: #68020f;
+   flex: 1;
+   text-align: center;
+}
+
+.nav-menu ul li:not(:first-child) {
+   border-left: 2px solid #fffffe;
+}
+
+.nav-menu ul li:hover {
+   background-color: #fffffe;
+}
+
+.nav-menu ul li a {
+   display: block;
+   padding: 15px 0;
+   color: inherit;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+
+/* Main Section Styling */
+
+.hero {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 50px;
+   gap: 100px;
+  }
+
+  .hero-content-left img {
+   border-radius: 50%;
+   border: 10px solid #68020f;
+  }
+
+  .hero-content-right {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 50px;
+  }
+
+  .hero-content-right h1 {
+   font-size: 1.5em;
+  }
+
+  .hero-content-right h2 {
+   font-size: 1em;
+   font-weight: 500;
+  }
+
+  .hero-btn {
+   display: flex;
+   justify-content: left;
+   gap: 20px;
+  }
+
+  .hero-btn button {
+   width: 150px;
+   height: 50px;
+   border: 2px solid #f21137;
+   border-radius: 30px;
+   font-size: .5em;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: transparent;
+  }
+
+  button  a {
+   text-decoration: none;
+   color: #f21137;
+  }
+
+  button:hover {
+   background-color: #fffffe;
+  }
+ 
+  button:hover a {
+   color: #68020f;
+  }
+
+  .hero-social img{
+  margin: auto;
+  }
+
+  #about > p {
+   text-align: center;
+   margin-top: 20px;
+   font-size: 1em;
+  }
+
+  #about > h2 {
+   text-align: center;
+   font-size: 2em;
+  }
+
+  .about-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+  }
+
+  .about-section-left, .about-section-right {
+    width: 400px;
+    height: 150px; /* Adjust later AUTO */
+    border: 2px solid #68020f;
+    border-radius: 30px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 25px;
+    font-size: 1em;
+  }
+
+  #about .more-detail {
+   text-align: left;
+   padding: 0 100px;
+  }
+
+  #experience > p {
+   text-align: center;
+   margin-top: 20px;
+   font-size: 1em;
+  }
+
+  #experience > h2 {
+   text-align: center;
+   font-size: 2em;
+  }
+
+  .experience-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 70px;
+   
+  }
+
+ .stack-left, .stack-right {
+   margin-top: 30px;
+   width: 400px;
+   height: 250px;
+   border: 2px solid #68020f;
+   border-radius: 30px;
+   text-align: center;
+   font-size: 1em;
+   padding-top: 20px;
+  }
+
+  .stack-container-left {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+  }
+
+  .stack-list-left > ul {
+   list-style: url(checkmark.png);
+   text-align: left;
+   padding-top: 20px;
+   margin-left:30px;
+  }
+
+  .stack-list-right > ul {
+   list-style: url(checkmark.png);
+   text-align: left;
+   padding-top: 20px;
+   margin-right:30px;
+  }
+
+  .stack-container-right {
+   display: flex;
+   justify-content: center;
+   gap: 100px;
+  }
+
+  .stack-list-left > ul {
+   list-style: url(checkmark.png);
+   text-align: left;
+   padding-top: 20px;
+   margin-left:30px;
+  }
+
+  .stack-list-right > ul {
+   list-style: url(checkmark.png);
+   text-align: left;
+   padding-top: 20px;
+   margin-right:30px;
+  }
+
+  #experience ul li {
+   font-weight: 700;
+  }
+
+  #experience .more-detail {
+   text-align: left;
+   padding: 0 100px;
+  }
+
+  
+  /* Project Section Style */
+
+  #projects > p {
+   text-align: center;
+   margin-top: 20px;
+   font-size: 1em;
+  }
+
+  #projects > h2 {
+   text-align: center;
+   font-size: 2em;
+  }
+
+  #projects > h3 {
+   text-align: center;
+   font-size: 1.5em;
+  }
+
+  .projects-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+  }
+
+  .project-1, .project-2, .project-3 {
+   width: 400px;
+   height: auto;
+   border: 2px solid #68020f;
+   border-radius: 30px;
+   text-align: center;
+   font-size: 1em;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   margin-top: 30px;
+  }
+
+  .projects-section .project-img {
+   border-radius: 50px;
+  }
+
+  .project-btn {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+  }
+
+  .project-btn button {
+   width: 120px;
+   height: 50px;
+   border: 2px solid #68020f;
+   border-radius: 30px;
+   font-size: 1em;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   background-color: transparent;
+  }
+
+  .project-btn button a {
+   text-decoration: none;
+   color: #68020f;
+  }
+
+  button:hover {
+   background-color: #68020f;
+  }
+ 
+  button:hover a {
+   color: #fffffe;
+  }
+
+    /* Contact Section Style */
+
+     #contact > p {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 1em;
+     }
+
+     #contact > h2 {
+      text-align: center;
+      font-size: 2em;
+     }
+
+   .contact-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      min-height: 30vh;
+      background-color: transparent;
+   }
+
+   .contact-section-email > h3,
+   .contact-section-linkedin > h3 {
+      display: flex;
+      align-items: center;
+      text-align: center;
+   }
+
+   .contact-section-email,
+   .contact-section-linkedin {
+      margin-right: 20px;
+      width: 300px;
+      text-align: center;
+      padding: 20px;
+      border-radius: 50px;
+      background-color: transparent;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+   }
+
+   .icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+      position: relative;
+      top: 3px;
+   }
+
+   .link {
+      text-decoration: none;
+      color: #68020f;
+   }
+
+   .contact-section-email:hover,
+   .contact-section-linkedin:hover {
+      text-decoration: none;
+      background-color: #68020f;
+   }
+
+   .contact-section-email:hover a,
+   .contact-section-linkedin:hover a {
+      color: #fffffe;
+   }
+
+   #home {
+      text-align: center;
+      font-size: 1em;
+      text-transform: uppercase;
+      text-decoration: none;
+   }
+
+   #home a {
+      text-decoration: none;
+      color: #68020f;
+   }
+
+   #footer {
+      text-align: center;
+      padding-top: 30px;
+      background-color: #68020f;
+      color: #fffffe;
+   }
