@@ -28,7 +28,7 @@ Welcome to my personal portfolio website! This Flask-based project showcases my 
 ## Project Structure
 
     ```plaintext
-    portfolio/
+    personal_portfolio_website/
     |-- static/
     |   |-- css/
     |   |   |-- style.css
