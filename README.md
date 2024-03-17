@@ -1,72 +1,38 @@
 # Personal Portfolio Website
 
-Welcome to my personal portfolio website! This Flask-based project showcases my profile, experience, projects, and contact information.
+## Introduction
 
-## Table of Contents
+The Personal Portfolio Website is a showcase platform designed to highlight individual skills, projects, and expertise. It provides a personalized space for users to present their professional achievements and career journey.
 
-    - [Overview](#overview)
-    - [Features](#features)
-    - [Project Structure](#project-structure)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributing](#contributing)
-- [License](#license)
+- **Deployed Site:** [Personal Portfolio Website]( http://18.206.197.195/saoportfolio/)
+- **Final Project Blog Article:** [Final Project Blog Article]( https://dev.to/saoconcept/personal-portfolio-website-project-blog-24pd)
+- **Author(s) LinkedIn:**
+- [Azeez Saka]( https://www.linkedin.com/in/azeez-saka)
+## Installation
 
-## Overview
+[You may access the website via the provided URL ‘http://18.206.197.195/saoportfolio/)’.]
 
-    This project serves as my portfolio website, providing an overview of his skills, experience, and projects. It's built with Flask, HTML, CSS, and JavaScript.
+## Usage
 
-## Features
+[To use the Personal Portfolio Website, paste the URL provided into your favourite web browser, it will take you to the landing page where you get to explore all available features and navigation]
 
-    - Responsive design for a seamless viewing experience on various devices.
-    - Sections for Profile, About Me, Experience, Projects, and Contact.
-    - Navigation bar with smooth scrolling.
-    - Hamburger menu for mobile navigation.
-    - Interactive buttons and links.
-    - Easily customizable with your information.
+## Contributing
 
-## Project Structure
+I welcome contributions from the community to improve the Personal Portfolio Website. To contribute, follow these steps:
 
-    ```plaintext
-    personal_portfolio_website/
-    |-- static/
-    |   |-- css/
-    |   |   |-- style.css
-    |   |   |-- mediaqueries.css
-    |   |-- js/
-    |   |   |-- script.js
-    |   |-- assets/
-    |   |   |-- profile-pic.png
-    |   |   |-- about-pic.png
-    |   |   |-- experience.png
-    |   |   |-- education.png
-    |   |   |-- checkmark.png
-    |   |   |-- arrow.png
-    |   |   |-- project-1.png
-    |   |   |-- project-2.png
-    |   |   |-- project-3.png
-    |   |   |-- email.png
-    |   |   |-- linkedin.png
-    |   |   |-- github.png
-    |   |   |-- Azeez_Saka_Resume.pdf
-    |-- templates/
-    |   |-- base.html
-    |   |-- index.html
-    |-- app.py
-    |-- README.md
-    Installation
-    Clone the repository:
-    bash
-    Copy code
-    git clone https://github.com/sao-concept/portfolio.git
-    cd portfolio
-    Install dependencies:
-    bash
-    Copy code
-    pip install -r requirements.txt
-    Usage
-    Run the Flask application:
-    bash
-    Copy code
-    python app.py
-    Open your browser and navigate to http://localhost:5000.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -m 'Add your feature'`).
+4. Push your changes to the branch (`git push origin feature/your-feature`).
+5. Create a pull request.
+
+Please ensure that your contributions adhere to the project's coding standards and guidelines.
+
+## Related Projects
+
+[Optional: Portfolio showcasing websites.]
+
+## Licensing
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
